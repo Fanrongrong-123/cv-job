@@ -1,4 +1,4 @@
-
+/*css reset*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,7 +28,8 @@ h1 {
     font-size: 25px;
     top: 0;
 }
-h2{
+
+h2 {
     margin-top: 20px;
 }
 
@@ -39,7 +40,8 @@ h4, h5, h6 {
 ol {
     list-style: none;
 }
-ul{
+
+ul {
     margin-left: 20px;
 }
 
@@ -67,4 +69,73 @@ p, li {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+/*PC CSS*/
+
+.dio h1 {
+    margin-bottom: 20px;
+}
+
+.project .project-link, .project-source .project-source-link, .education .time, .job .time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.skill > ul > li {
+    margin-top: 14px;
+}
+
+.other > ol > li, .generalize > ul > li {
+    margin-top: 8px;
+}
+.time2{
+    display: none;
+}
+
+/*print css*/
+@media print {
+    body {
+        margin: 0;
+    }
+
+    .storage {
+        display: none;
+    }
+
+    .page2 {
+        padding: 20px 0 0 0;
+    }
+
+}
+
+/*phone css*/
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+
+    article {
+        width: auto;
+        height: auto;
+        padding: 4px;
+    }
+
+    .project .project-link, .project-source .project-source-link, .education .time, .job .time {
+        display: inline-block;
+        margin-top: 14px;
+    }
+
+    .dio img {
+        display: none;
+    }
+
+    .time2{
+        display: inline-block;
+    }
+
+    .generalize{
+        margin-bottom: 20px;
+    }
 }
