@@ -94,6 +94,13 @@ p, li {
     display: none;
 }
 
+.message-iphone p{
+    display: none;
+}
+.message-pc p{
+    display: block;
+}
+
 /*print css*/
 @media print {
     body {
@@ -128,7 +135,8 @@ p, li {
     }
 
     .dio img {
-        display: none;
+        display: block;
+        margin-top: 4px;
     }
 
     .time2{
@@ -137,6 +145,13 @@ p, li {
 
     .generalize{
         margin-bottom: 20px;
+    }
+
+    .message-iphone p{
+        display: block;
+    }
+    .message-pc p{
+        display: none;
     }
 }
 
