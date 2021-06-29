@@ -1,1 +1,1 @@
-{"id":"img/cv.jpg","dependencies":[],"generated":{"js":"module.exports = \"/1e0a1a99a2a354ec87aa48f9a1b798b2.jpg\";"},"sourceMaps":null,"error":null,"hash":"46df20ee91fe889b7839be815a404163","cacheData":{"env":{}}}
+{"id":"img/cv.jpg","dependencies":[{"name":"F:\\mycode\\cv-2021\\package.json","includedInParent":true,"mtime":1614060336658}],"generated":{"js":"module.exports = \"/1e0a1a99a2a354ec87aa48f9a1b798b2.jpg\";"},"sourceMaps":null,"error":null,"hash":"672df330dc75b24fe287ffa8a6052f6e","cacheData":{"env":{}}}
