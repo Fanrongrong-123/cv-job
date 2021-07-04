@@ -114,6 +114,9 @@ p, li {
     .page2 {
         padding: 20px 0 0 0;
     }
+    .page1{
+        margin-bottom: 20px;
+    }
 }
 
 /*phone css*/
